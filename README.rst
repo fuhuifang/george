@@ -19,12 +19,17 @@ Read the documentation at: `dan.iel.fm/george <http://dan.iel.fm/george>`_.
 
 
 cd george
+
 git submodule init
+
 git submodule update
 
 # if eigen3 is not installed:
+
 # download eigen3 and add path to setup.py
 
 # add "BayesianLinearRegressionKernel" and "TaskKernel" to "__all__" in george/kernels.py
+
 python setup.py build_ext --inplace
+
 python setup.py install
