@@ -1,0 +1,3 @@
+LIBRARY hodlr.pyd
+EXPORTS
+inithodlr

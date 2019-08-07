@@ -1,0 +1,3 @@
+LIBRARY _kernels.pyd
+EXPORTS
+init_kernels
